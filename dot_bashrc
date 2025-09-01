@@ -33,5 +33,5 @@ fi
 
 # Shell completions (chezmoi)
 if command -v "chezmoi" >/dev/null; then
-	eval "$(chezmoi completion bash)"
+	source <(chezmoi completion bash)
 fi
