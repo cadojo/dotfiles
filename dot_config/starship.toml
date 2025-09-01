@@ -1,0 +1,238 @@
+[raku]
+format = "via [$symbol]($style)"
+
+[erlang]
+format = "via [$symbol]($style)"
+
+[docker_context]
+symbol = " "
+
+[pulumi]
+format = "via [$symbol$stack]($style)"
+
+[golang]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[typst]
+format = "via [$symbol]($style)"
+
+[rust]
+symbol = "󱘗 "
+
+[guix_shell]
+symbol = " "
+
+[crystal]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[swift]
+symbol = " "
+
+[helm]
+format = "via [$symbol]($style)"
+
+[git_commit]
+tag_symbol = "  "
+
+[julia]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[zig]
+symbol = " "
+
+[purescript]
+format = "via [$symbol]($style)"
+
+[os.symbols]
+Solus = "󰠳 "
+Macos = " "
+Unknown = " "
+Pop = " "
+Fedora = " "
+OpenBSD = "󰈺 "
+Linux = " "
+openSUSE = " "
+Mint = " "
+Arch = " "
+DragonFly = " "
+Windows = "󰍲 "
+Illumos = "󰈸 "
+FreeBSD = " "
+CentOS = " "
+Emscripten = " "
+Debian = " "
+Mariner = " "
+EndeavourOS = " "
+Artix = " "
+Ubuntu = " "
+Manjaro = " "
+Alpaquita = " "
+Void = " "
+MidnightBSD = " "
+OracleLinux = "󰌷 "
+RockyLinux = " "
+Android = " "
+RedHatEnterprise = " "
+Garuda = "󰛓 "
+Redox = "󰀘 "
+NixOS = " "
+Alpine = " "
+CachyOS = " "
+Redhat = " "
+Mabox = " "
+Amazon = " "
+Gentoo = " "
+AlmaLinux = " "
+NetBSD = " "
+Kali = " "
+Raspbian = " "
+SUSE = " "
+Nobara = " "
+HardenedBSD = "󰞌 "
+
+[meson]
+symbol = "󰔷 "
+
+[gradle]
+symbol = " "
+
+[opa]
+format = "via [$symbol]($style)"
+
+[pijul_channel]
+symbol = " "
+
+[aws]
+symbol = "  "
+
+[hg_branch]
+symbol = " "
+
+[bun]
+symbol = " "
+
+[cpp]
+symbol = " "
+
+[dotnet]
+format = "[$symbol(🎯 $tfm )]($style)"
+
+[python]
+symbol = " "
+
+[red]
+format = "via [$symbol]($style)"
+
+[fennel]
+symbol = " "
+
+[c]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[package]
+symbol = "󰏗 "
+
+[rlang]
+symbol = "󰟔 "
+
+[gcloud]
+symbol = "  "
+
+[lua]
+symbol = " "
+
+[vlang]
+format = "via [$symbol]($style)"
+
+[cmake]
+symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[scala]
+symbol = " "
+
+[perl]
+symbol = " "
+
+[cobol]
+format = "via [$symbol]($style)"
+
+[directory]
+read_only = " 󰌾"
+
+[pixi]
+symbol = "󰏗 "
+
+[deno]
+symbol = " "
+
+[vagrant]
+format = "via [$symbol]($style)"
+
+[dart]
+symbol = " "
+
+[ocaml]
+symbol = " "
+
+[quarto]
+format = "via [$symbol]($style)"
+
+[php]
+symbol = " "
+
+[java]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[kotlin]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[buf]
+symbol = " "
+
+[nim]
+symbol = "󰆥 "
+
+[hostname]
+ssh_symbol = " "
+
+[daml]
+format = "via [$symbol]($style)"
+
+[gleam]
+format = "via [$symbol]($style)"
+
+[conda]
+symbol = " "
+
+[solidity]
+format = "via [$symbol]($style)"
+
+[elm]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
