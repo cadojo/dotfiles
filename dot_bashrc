@@ -25,9 +25,13 @@ if command -v "eza" >/dev/null; then
 	alias ls=eza
 fi
 
-# use z over cd
+# Use z over cd
 if command -v "zoxide" >/dev/null; then
     	eval "$(zoxide init bash)"
 	alias cd=z
 fi
 
+# Shell completions (chezmoi)
+if command -v "chezmoi" >/dev/null; then
+	eval "$(chezmoi completion bash)"
+fi
