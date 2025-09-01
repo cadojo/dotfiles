@@ -1,0 +1,33 @@
+# Path configuration
+export PATH="/Users/joey/.local/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# User variables
+export EDITOR=nvim
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# User aliases
+alias vim=nvim
+alias cm=chezmoi
+
+# Homebrew
+if [ -f "/opt/homebrew/bin/brew" ]; then
+	eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+
+# Starship prompt
+if command -v "starship" >/dev/null; then
+	eval "$(starship init bash)"
+fi
+
+# Use eza over ls
+if command -v "eza" >/dev/null; then
+	alias ls=eza
+fi
+
+# use z over cd
+if command -v "zoxide" >/dev/null; then
+    	eval "$(zoxide init bash)"
+	alias cd=z
+fi
+
