@@ -1,6 +1,13 @@
 title = " " 
 font-family = "Fira Code"
+initial-window = false
+window-width = 120
+window-height = 32
 window-padding-x = 10
 window-padding-y = 10
 theme = dark:catppuccin-frappe,light:catppuccin-latte
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+quick-terminal-position = center
+quick-terminal-space-behavior = remain
+confirm-close-surface = false
 

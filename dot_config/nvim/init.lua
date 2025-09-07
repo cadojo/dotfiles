@@ -578,6 +578,24 @@ require('lazy').setup({
     end,
   },
 
+  {
+  "epwalsh/obsidian.nvim",
+  version = "*",  -- recommended, use latest release instead of latest commit
+  lazy = true,
+  ft = "markdown",
+  dependencies = {
+    -- Required.
+    "nvim-lua/plenary.nvim",
+  },
+  opts = {
+    workspaces = {
+      {
+        name = "iCloud",
+        path = "~/Vaults/iCloud",
+      },
+    },
+  },
+},
     { -- Autocompletion
     'saghen/blink.cmp',
     event = 'VimEnter',
@@ -739,6 +757,19 @@ require('lazy').setup({
               -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
           },
       })
+
+      -- Query light / dark mode
+      local handle = io.popen("defaults read -g AppleInterfaceStyle")
+      local result = handle:read("*a")
+      handle:close()
+
+      -- Match on light / dark mode
+      if result:match("Dark") then
+        vim.o.background = "dark"
+      
+      else 
+        vim.o.background = "light"
+      end
 
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
