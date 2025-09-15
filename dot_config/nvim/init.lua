@@ -27,6 +27,9 @@ vim.schedule(function()
   vim.o.clipboard = 'unnamedplus'
 end)
 
+-- Set `conceallevel` to be compatible with `obsidian.nvim`
+vim.o.conceallevel = 1
+
 -- Enable break indent
 vim.o.breakindent = true
 
@@ -594,6 +597,7 @@ require('lazy').setup({
         path = "~/Vaults/iCloud",
       },
     },
+    disable_frontmatter = true,
   },
 },
     { -- Autocompletion
