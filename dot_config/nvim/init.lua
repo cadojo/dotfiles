@@ -594,7 +594,7 @@ require('lazy').setup({
     workspaces = {
       {
         name = "iCloud",
-        path = "~/Vaults/iCloud",
+        path = "~/.vaults/iCloud",
       },
     },
     disable_frontmatter = true,
