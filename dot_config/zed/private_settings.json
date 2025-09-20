@@ -1,0 +1,67 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Frappé"
+  },
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
+    }
+  },
+  "disable_ai": false,
+  "inlay_hints": {
+    "enabled": true,
+    "show_value_hints": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "show_background": false,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50,
+    "toggle_on_modifiers_press": {
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "platform": false,
+      "function": false
+    }
+  },
+  "buffer_font_family": "FiraCode Nerd Font Mono",
+  "buffer_font_features": {
+    "calt": 1
+  },
+  "ui_font_family": "iA Writer Quattro V",
+  "terminal": {
+    "font_family": "FiraCode Nerd Font"
+  },
+  "use_system_path_prompts": false,
+  "show_completions_on_input": true,
+  "show_edit_predictions": true,
+  "base_keymap": "VSCode",
+  "minimap": {
+    "show": "never"
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Macchiato"
+  }
+}
