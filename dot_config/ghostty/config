@@ -5,7 +5,7 @@ window-width = 120
 window-height = 32
 window-padding-x = 10
 window-padding-y = 10
-theme = dark:catppuccin-macchiato,light:catppuccin-latte
+theme = dark:Catppuccin Macchiato,light:Catppuccin Latte
 keybind = global:cmd+grave_accent=toggle_quick_terminal
 quick-terminal-position = center
 quick-terminal-space-behavior = remain
